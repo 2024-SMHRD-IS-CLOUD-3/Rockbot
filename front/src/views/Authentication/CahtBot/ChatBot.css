@@ -1,0 +1,356 @@
+/* 전체 레이아웃 스타일 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Pretendard-Regular;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* 다크 모드 및 라이트 모드 */
+.bg-dark-mode {
+  background-color: #1a202c;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.bg-light-mode {
+  background-color: #ffffff;
+}
+
+.text-dark {
+  color: #000000;
+}
+
+/* 사이드바 스타일 수정 */
+.sidebar-container {
+  width: 360px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+  justify-content: space-between; /* 자식 요소들을 상단과 하단에 배치하도록 설정 */
+}
+
+/* 새로운 하단 버튼 컨테이너 스타일 추가 */
+.sidebar-bottom-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* 버튼들 사이의 간격 */
+}
+
+.bg-dark-mode .sidebar-container {
+  background-color: hwb(219 14% 75%);
+  /* 다크 모드일 때 어두운 배경 */
+}
+
+.profile-container {
+  text-align: center;
+}
+
+.profile-user-id {
+  font-family: 'Pretendard-SemiBold';
+  font-size: 28px;
+}
+
+.profile-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.profile-department {
+  color: #6c757d;
+}
+
+/* 이전 대화 목록 */
+.previous-chats-container {
+  margin-bottom: 16px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.previous-chats-header {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.previous-chats-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chat-item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.chat-title {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-days {
+  font-size: 0.875rem;
+  color: #adb5bd;
+}
+
+.icon-spacing {
+  margin-right: 3px;
+}
+
+/* 대화창 */
+.chat-window-container {
+  display: flex;
+  flex-direction: column;
+  width: 1000px; /*추가부분*/
+  margin: auto; /*추가부분*/
+  /* flex-grow: 1; */
+  /* 화면의 남은 공간을 채우도록 설정 */
+  height: 100vh;
+  /* 채팅창도 전체 화면 높이를 차지하도록 설정 */
+  box-sizing: border-box;
+  /* padding 포함한 전체 높이 계산 */
+}
+
+.chat-messages-container {
+  flex-grow: 1;
+  padding: 16px;
+  overflow-y: auto;
+  /* 메시지가 많아지면 스크롤이 생기도록 설정 */
+  background-color: hsl(0, 0%, 100%);
+}
+
+.bg-dark-mode .chat-window-container {
+  background-color: #1a202c;
+  /* 다크 모드 배경 */
+}
+
+.bg-dark-mode .chat-messages-container {
+  /* background-color: #2d3748; */
+  background-color: #1a202c;
+  /* 다크 모드 배경 */
+}
+
+.message-container {
+  margin-bottom: 12px;
+}
+
+.message-bubble {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 8px;
+  max-width: 70%;
+  word-wrap: break-word;
+  font-size: 17px;
+}
+
+.user-message {
+  text-align: right;
+}
+
+.user-bubble {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.bot-message {
+  text-align: left;
+}
+
+.bot-bubble {
+  background-color: #e9ecef;
+  color: #000;
+}
+
+.bg-dark-mode .bot-bubble {
+  background-color: #4a5568;
+  /* 다크 모드 챗봇 메시지 */
+  color: #e2e8f0;
+  /* 다크 모드 텍스트 색상 */
+}
+
+.bg-dark-mode .user-bubble {
+  background-color: hsl(211, 100%, 35%);
+  /* 다크 모드 사용자 메세지 */
+}
+
+/* 입력창 */
+.chat-input-container {
+  padding: 16px;
+  border-top: 1px solid #e9ecef;
+  display: flex;
+  background-color: #ffffff;
+  /* 기본 라이트 모드 배경 */
+  box-sizing: border-box;
+  /* padding 포함한 전체 높이 계산 */
+}
+
+.input-field {
+  font-family: 'Pretendard-Regular';
+}
+
+.bg-dark-mode .chat-input-container {
+  /* background-color: #2a3344; */
+  background-color: #1a202c;
+  /* 다크 모드 배경 */
+  border-top: 1px solid #4a5568;
+  /* 다크 모드 경계선 */
+}
+
+.input-group {
+  display: flex;
+  width: 100%;
+}
+
+.input-field {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  flex: 1;
+}
+
+.input-field-password {
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  border: 1px solid #ced4da;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  border-radius: 4px 0 0 4px;
+}
+
+.bg-dark-mode .chat-input {
+  background-color: #4a5568;
+  /* 다크 모드 입력 필드 배경 */
+  border: 1px solid #718096;
+  /* 다크 모드 입력 필드 경계선 */
+  color: #ffffff;
+  /* 다크 모드 입력 필드 텍스트 색상 */
+}
+
+/* 버튼 스타일 */
+.sidebar-container .button {
+  width: 100%;
+  padding: 14px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+  font-family: 'Pretendard-Medium';
+}
+
+.button {
+  padding: 14px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+  font-family: 'Pretendard-Medium';
+}
+
+.profile-settings-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mode-toggle-button,
+.dark-mode-toggle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode-toggle-button {
+  background-color: #e2e8f0;
+  /* 기본 라이트 모드 배경 */
+}
+
+.bg-dark-mode .dark-mode-toggle-button {
+  background-color: #4a5568;
+  /* 다크 모드 배경 */
+  color: #e2e8f0;
+  /* 다크 모드 텍스트 색상 */
+}
+
+.send-button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.bg-dark-mode .send-button {
+  background-color: hsl(211, 100%, 35%);
+  /* 다크 모드 전송 버튼 배경 */
+}
+
+/* 프로필 설정 팝업 */
+.profile-settings-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background-color: white;
+  /* 기본 라이트 모드 */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  z-index: 10;
+}
+
+.bg-dark-mode .profile-settings-container {
+  background-color: #2d3748;
+  /* 다크 모드 배경 */
+  color: #e2e8f0;
+  /* 다크 모드 텍스트 색상 */
+}
+
+.profile-settings-header {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.profile-settings-save-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.profile-settings-save-button:hover {
+  background-color: #0056b3;
+}
