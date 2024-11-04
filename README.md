@@ -1,1 +1,155 @@
-# Rockbot
+# 🤖Rockbot (팀명 : Rock & Rock)
+![KakaoTalk_20241023_103702369](https://github.com/user-attachments/assets/ea16ca3f-5755-4bae-af91-fa01b51f959c)
+
+
+
+## 👀 서비스 소개
+* 서비스명: Rockbot
+* 서비스설명: RAG / Gen AI 기반 중소기업 맞춤형 챗봇
+<br>
+
+## 📅 프로젝트 기간
+2024.10.14 ~ 2024.11.13 (5주)
+<br>
+
+## ⭐ 주요 기능
+* 기능1 : 회원가입 / 로그인(네이버, 카카오) / 이메일 인증
+* 기능2 : ChatGPT API / Gen AI / RAG / Langchain 사용한 챗봇
+* 기능3 : 촬영지 추천
+* 기능4 : 사내규정 안내
+* 기능5 : 결재 요청 관리
+<br>
+
+## ⛏ 기술스택
+<table>
+    <tr>
+        <th>구분</th>
+        <th>내용</th>
+    </tr>
+    <tr>
+        <td>Back-end</td>
+        <td>
+            <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/> 
+            <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Jwt-000000?style=for-the-badge&logo=JSONWebTokens&logoColor=white">
+        </td>
+    </tr>
+    <tr>
+        <td>Front-end</td>
+        <td>
+            <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
+            <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"/> 
+        </td>
+    </tr>
+    <tr>
+        <td>Data & Server</td>
+        <td>
+            <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/> 
+            <img src="https://img.shields.io/badge/Apache Tomcat 9.0-D22128?style=for-the-badge&logo=Apache Tomcat&logoColor=white"/> 
+            <img src="https://img.shields.io/badge/Axios-007CE2?style=for-the-badge&logo=axios&logoColor=white" >
+            <img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=Anaconda&logoColor=white"/>
+            <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=NGINX&logoColor=white"/> 
+        </td>
+    </tr>
+    <tr>
+        <td>Language</td>
+        <td>
+            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/> 
+            <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+            <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/> 
+        </td>
+    </tr>
+    <tr>
+        <td>IDE</td>
+        <td>
+            <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse&logoColor=white"/>
+            <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-adge&logo=VisualStudioCode&logoColor=white"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Etc</td>
+        <td>
+            <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"/>
+            <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+        </td>
+    </tr>
+</table>
+
+
+<br>
+
+## ⚙ 시스템 아키텍처(구조) 예시 
+<br>
+
+## 📌 SW유스케이스
+![유스케이스 다이어그램](https://github.com/user-attachments/assets/bc4ed772-0e66-4af4-8d79-d0d14954a6b3)
+<br>
+
+## 📌 서비스 흐름도
+<br>
+
+## 📌 ER다이어그램
+![ER DIAGRAM](https://github.com/user-attachments/assets/66d4eeb9-996f-4264-8816-4bc4227bd390)
+<br>
+
+## 🖥 화면 구성
+
+### 로그인/회원가입 (이메일 인증 / 카카오 / 네이버 로그인)
+![로그인 화면_회원가입](https://github.com/user-attachments/assets/dfabf8e8-9838-4f80-8b3d-3e0396b694b2)
+<br>
+
+### Chatbot
+![chatbot 화면](https://github.com/user-attachments/assets/a8c00a4d-df3e-4e7e-ae16-63ab1a58a070)
+<br>
+
+### 출장 신청 관리
+![출장목록 페이지](https://github.com/user-attachments/assets/cd3ebc12-c9c9-4544-b344-9856a611aec4)
+<br>
+
+## 👨‍👩‍👦‍👦 팀원 역할
+<table>
+  <tr>
+    <td align="center"><img src="https://item.kakaocdn.net/do/fd49574de6581aa2a91d82ff6adb6c0115b3f4e3c2033bfd702a321ec6eda72c" width="100" height="100"/></td>
+    <td align="center"><img src="https://mb.ntdtv.kr/assets/uploads/2019/01/Screen-Shot-2019-01-08-at-4.31.55-PM-e1546932545978.png" width="100" height="100"/></td>
+    <td align="center"><img src="https://mblogthumb-phinf.pstatic.net/20160127_177/krazymouse_1453865104404DjQIi_PNG/%C4%AB%C4%AB%BF%C0%C7%C1%B7%BB%C1%EE_%B6%F3%C0%CC%BE%F0.png?type=w2" width="100" height="100"/></td>
+    <td align="center"><img src="https://i.pinimg.com/236x/ed/bb/53/edbb53d4f6dd710431c1140551404af9.jpg" width="100" height="100"/></td>
+    <td align="center"><img src="https://pbs.twimg.com/media/B-n6uPYUUAAZSUx.png" width="100" height="100"/></td>
+    <td align="center"><img src="https://pbs.twimg.com/media/B-n6uPYUUAAZSUx.png" width="100" height="100"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>박경록</strong></td>
+    <td align="center"><strong>강다은</strong></td>
+    <td align="center"><strong>김대권</strong></td>
+    <td align="center"><strong>배지환</strong></td>
+    <td align="center"><strong>송현주</strong></td>
+    <td align="center"><strong>이영환</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><b>PM, Full-Stack</b></td>
+    <td align="center"><b>Backend, Frontend</b></td>
+    <td align="center"><b>CloudServer</b></td>
+    <td align="center"><b>Backend, Chatbot</b></td>
+    <td align="center"><b>산출문서</b></td>
+    <td align="center"><b>DB</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+  </tr>
+</table>
+
+## 🤾‍♂️ 트러블슈팅
+개념: 문제 해결을 위해 문제의 원인을 논리적이고 체계적으로 찾는 일이며 제품이나 프로세스의 운영을 재개
+프로젝트 진행하는 동안 발생했던 이슈 중 가장 기억에 남았던 문제와 해결 프로세스 나열(2~5가지 정도)
+  
+* 문제1<br>
+ 문제점 설명 및 해결방안
+ 
+* 문제2<br>
+ 문제점 설명 및 해결방안
