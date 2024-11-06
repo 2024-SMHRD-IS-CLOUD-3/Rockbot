@@ -80,7 +80,8 @@
 
 <br>
 
-## ⚙ 시스템 아키텍처(구조) 예시 
+## ⚙ 시스템 아키텍처(구조)
+![시스템 아키텍처](https://github.com/user-attachments/assets/1858cbcf-15bc-4aeb-b2fa-e558d07b9d39)
 <br>
 
 ## 📌 SW유스케이스
@@ -100,12 +101,33 @@
 ![로그인 화면_회원가입](https://github.com/user-attachments/assets/dfabf8e8-9838-4f80-8b3d-3e0396b694b2)
 <br>
 
-### Chatbot
-![chatbot 화면](https://github.com/user-attachments/assets/a8c00a4d-df3e-4e7e-ae16-63ab1a58a070)
+### Chatbot (촬영지 추천)
+![촬영지 챗봇](https://github.com/user-attachments/assets/6ef08126-f5b9-4bbd-b3ae-732ff0ec8958)
 <br>
 
-### 출장 신청 관리
-![출장목록 페이지](https://github.com/user-attachments/assets/cd3ebc12-c9c9-4544-b344-9856a611aec4)
+### Chatbot (사내규정 안내)
+![chatbot 화면](https://github.com/user-attachments/assets/470063db-70bc-4267-80d0-7481ff54c6fb)
+<br>
+
+### Chatbot (일상 대화 / 다크모드)
+![일상대화 챗봇](https://github.com/user-attachments/assets/cfe0cbda-9a87-40d9-a421-270348b2e5fd)
+![다크모드](https://github.com/user-attachments/assets/a2aa15d0-30fe-4163-ac81-10ef6a606f1a)
+<br>
+
+### 관리자 (출장 목록 페이지)
+![출장 목록 페이지](https://github.com/user-attachments/assets/05812df5-57cd-4ecc-b19b-01d499129d85)
+<br>
+
+### 관리자 (출장 결재 대기 페이지)
+![출장 결재 대기 페이지](https://github.com/user-attachments/assets/5adfe7a0-9f8b-4202-81f5-bbeb21686650)
+<br>
+
+### 관리자 (출장결재 목록 페이지)
+![출장 결재 목록 페이지](https://github.com/user-attachments/assets/efec1149-55f1-48ef-85cb-c4242864ac2a)
+<br>
+
+### 관리자 (회원 목록)
+![회원 목록](https://github.com/user-attachments/assets/9247254b-1fe3-4965-8aec-e7aae4b840ce)
 <br>
 
 ## 👨‍👩‍👦‍👦 팀원 역할
