@@ -81,24 +81,26 @@
 <br>
 
 ## ⚙ 시스템 아키텍처(구조)
-![시스템 아키텍처](https://github.com/user-attachments/assets/1858cbcf-15bc-4aeb-b2fa-e558d07b9d39)
+![시스템 아키텍처](https://github.com/user-attachments/assets/2fcf126e-feda-45c9-aa9c-cdd425b7aa4d)
+![시스템 아키텍처(이미지)](https://github.com/user-attachments/assets/723cd7ff-6baf-43d0-a253-879d51cf4e1b)
 <br>
 
 ## 📌 SW유스케이스
-![유스케이스 다이어그램](https://github.com/user-attachments/assets/bc4ed772-0e66-4af4-8d79-d0d14954a6b3)
+![유스케이스 다이어그램](https://github.com/user-attachments/assets/1b0b050c-0afc-4955-b57e-04ebabfd18c5)
 <br>
 
-## 📌 서비스 흐름도
+## 📌 Flow Chart
+![플로우차트](https://github.com/user-attachments/assets/77568ef7-f97c-4c94-8242-d6ca25a76ae9)
 <br>
 
 ## 📌 ER다이어그램
-![ER DIAGRAM](https://github.com/user-attachments/assets/66d4eeb9-996f-4264-8816-4bc4227bd390)
+![유스케이스 다이어그램](https://github.com/user-attachments/assets/68a4d907-eb58-40ed-98ba-ae8e44c65e3a)
 <br>
 
 ## 🖥 화면 구성
 
 ### 로그인/회원가입 (이메일 인증 / 카카오 / 네이버 로그인)
-![로그인 화면_회원가입](https://github.com/user-attachments/assets/dfabf8e8-9838-4f80-8b3d-3e0396b694b2)
+![로그인 회원가입 리드미](https://github.com/user-attachments/assets/e1519c8f-d8b1-4b3d-8f81-5d18871ecfed)
 <br>
 
 ### Chatbot (촬영지 추천)
@@ -157,12 +159,12 @@
     <td align="center"><b>DB</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/iwantkorean" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/daaaaeun" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/carpe456" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/baejji1587" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/ddung-ju" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/Lee-younghwan95" target='_blank'>github</a></td>
   </tr>
 </table>
 
