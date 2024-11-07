@@ -91,6 +91,7 @@
 
 ## 📌 Flow Chart
 ![플로우차트](https://github.com/user-attachments/assets/77568ef7-f97c-4c94-8242-d6ca25a76ae9)
+![플로우차트(챗봇)](https://github.com/user-attachments/assets/3cd1a10a-c162-4cc0-935c-1df574b1c813)
 <br>
 
 ## 📌 ER다이어그램
