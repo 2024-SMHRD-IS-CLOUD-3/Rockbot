@@ -1,0 +1,437 @@
+/* Global Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Pretendard-Regular;
+  transition: background-color 0.3s ease;
+}
+
+.flex {
+  display: flex;
+  transition: background-color 0.3s ease;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar-container {
+  width: 360px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+.bg-dark-mode .sidebar-container {
+  background-color: #2d3748;
+}
+
+/* Menu Item Styles */
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  font-family: Pretendard-Medium;
+  transition: background-color 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.bg-dark-mode .menu-item {
+  background-color: hwb(219 22% 66%);
+  color: #e2e8f0;
+}
+
+.menu-item.active {
+  background-color: #e2e8f0;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.bg-dark-mode .menu-item.active {
+  background-color: #46536b;
+}
+
+.bg-dark-mode .menu-item:hover {
+  background-color: #4a5568;
+}
+
+.travel-list-container .trip-return-days {
+  font-size: 15px;
+  color: #007bff;
+}
+
+.bg-dark-mode .travel-list-container .trip-return-days {
+  color: rgb(175, 207, 243);
+}
+
+.request-list-container .trip-status {
+  font-size: 15px;
+  color: #007bff;
+}
+
+.bg-dark-mode .request-list-container .trip-status {
+  color: rgb(175, 207, 243);
+}
+
+.user-list-container label {
+  font-size: 15px;
+  color: #007bff;
+  padding-top: 5px;
+  margin-left: 3px;
+  transition: color 0.3s ease;
+}
+
+.bg-dark-mode .user-list-container label {
+  color: rgb(175, 207, 243);
+}
+
+/* Button Styles */
+.sidebar-bottom-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: auto;
+}
+
+.navigate-button,
+.dark-mode-toggle-button {
+  padding: 14px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: Pretendard-Medium;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.bg-dark-mode .navigate-button,
+.bg-dark-mode .dark-mode-toggle-button {
+  background-color: #4a5568;
+  color: #e2e8f0;
+}
+
+.navigate-button:hover,
+.dark-mode-toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.bg-dark-mode .navigate-button:hover,
+.bg-dark-mode .dark-mode-toggle-button:hover {
+  background-color: #2b6cb0;
+}
+
+/* Container Styles */
+.pending-list-container,
+.travel-list-container,
+.request-list-container,
+.user-list-container {
+  flex-grow: 1;
+  padding: 40px;
+  overflow-y: auto;
+  width: calc(100% - 260px);
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+.bg-dark-mode .request-list-container,
+.bg-dark-mode .user-list-container {
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+/* Trip Item and Request Styles */
+.trip-item {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.bg-dark-mode .trip-item {
+  background-color: #4a5568;
+  border: 1px solid #718096;
+}
+
+.trip-request {
+  padding: 16px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.bg-dark-mode .trip-request {
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+.trip-request.pending {
+  border-left: 4px solid hsl(0, 0%, 54%);
+}
+
+.trip-request.approved {
+  border-left: 4px solid #28a745;
+}
+
+.trip-request.rejected {
+  border-left: 4px solid #dc3545;
+}
+
+/* Trip Info and Actions Styles */
+.travel-list-container p,
+.pending-list-container p,
+.request-list-container p {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.trip-info p {
+  margin: 4px 0;
+}
+
+.trip-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.approve-button,
+.reject-button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.approve-button {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.reject-button {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.bg-dark-mode .approve-button {
+  background-color: #38a169;
+}
+
+.bg-dark-mode .reject-button {
+  background-color: #e53e3e;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+}
+
+/* User Info Styles */
+.user-info {
+  padding: 16px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.bg-dark-mode .user-info {
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+.user-info label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Input Styles */
+input[type='number'] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Pretendard-Regular;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.bg-dark-mode input[type='number'] {
+  background-color: #4a5568;
+  color: #e2e8f0;
+  border: 1px solid #718096;
+}
+
+input[type='number']:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.bg-dark-mode input[type='number']:focus {
+  border-color: #63b3ed;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.bg-dark-mode ::-webkit-scrollbar-track {
+  background: #4a5568;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.bg-dark-mode ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+.bg-dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+}
+
+/* Select Box Styles */
+.custom-select {
+  width: 100%;
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  appearance: none;
+  margin: 12px auto;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.bg-dark-mode .custom-select {
+  background-color: rgb(17, 22, 37);
+  color: white;
+  border: 1px solid hwb(0 33% 67%);
+}
+
+.bg-dark-mode .custom-select:focus {
+  border-color: rgb(156, 156, 156);
+  outline: none;
+}
+
+.user-list-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열로 설정 */
+  gap: 0px 40px; /* 사용자 사이 간격 */
+  padding: 40px; /* 컨테이너 패딩 조정 */
+}
+
+.trip-item:last-child,
+.trip-request:last-child,
+.trip-info:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) { /* 모바일 화면 크기 조정 */
+  body,
+  html {
+  height: 100vh;
+}
+
+.flex {
+  height: 100vh;
+}
+
+  .sidebar-container {
+    width: 150px;
+  }
+
+  .sidebar-menu .menu-item {
+    font-size: 13px;
+  }
+
+  .sidebar-bottom-buttons button {
+    font-size: 13px;
+  }
+
+  .travel-list-container .trip-item .trip-info p {
+    font-size: 13px;
+  }
+
+  .travel-list-container .trip-item .trip-info .trip-return-days {
+    font-size: 12px;
+  }
+
+  .pending-list-container .trip-info p {
+    font-size: 13px;
+  }
+
+  .pending-list-container .trip-actions button {
+    font-size: 12px;
+  }
+
+  .request-list-container .trip-request .trip-info p {
+    font-size: 13px;
+  }
+
+  .request-list-container .trip-request .trip-info .trip-status {
+    font-size: 12px;
+  }
+
+  .user-list-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 2열 레이아웃 */
+    gap: 5px; /* 사용자 사이 간격 */
+    padding: 20px; /* 컨테이너 패딩 조정 */
+  }
+
+  .user-list-container .user-info {
+    height: 160px;
+  }
+}
